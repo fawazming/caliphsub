@@ -27,7 +27,7 @@
     date_default_timezone_set('Africa/Lagos');
     $protocol = (isset($_SERVER['HTTPS'])) ? "https://" : "http://";
     $assetsLoc = $protocol.$_SERVER['SERVER_NAME']."/".$parentdirectory."mobile/home";
-    $siteurl = $protocol.$_SERVER['SERVER_NAME']."/khaleefah/".$parentdirectory;
+    $siteurl = $protocol.$_SERVER['SERVER_NAME']."/".$parentdirectory;
     $data=""; $data2=""; $data3="" ; $data4 =""; $data5 =""; $data6=""; $data7="";
     $page="homepage.php";
     $title="Home";
