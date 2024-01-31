@@ -7,10 +7,10 @@
 
 	class Model{
 
-		public static $host="localhost";
-		public static $dbName="topup"; //Database Name
-		public static $username="root"; // Database Username
-		public static $password="root"; //Database Password
+		public static $host="mysql-caliphsub.alwaysdata.net";
+		public static $dbName="caliphsub_topup"; //Database Name
+		public static $username="caliphsub"; // Database Username
+		public static $password="RayyanCaliph"; //Database Password
 
         public static $dbh;
         
